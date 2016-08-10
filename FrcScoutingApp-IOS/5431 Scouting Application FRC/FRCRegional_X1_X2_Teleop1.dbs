@@ -1,0 +1,89 @@
+------------------------
+[ Tele-Op Records ]
+------------------------
+portculis Score
+{
+portScore:(E1)
+portAbility:(J1)
+}
+
+cheval de frise Score
+{
+chevalScore:(E2)
+chevalAbility:(J2)
+}
+
+Moat Score
+{
+moatScore:(E3)
+moatAbility:(J3)
+}
+
+Ramparts Score
+{
+rampartsScore:(E4)
+rampartsAbility:(J4)
+}
+
+Drawbridge Score
+{
+drawbridgeScore:(E5)
+drawbridgeAbility:(J5)
+}
+
+SallyPort Score
+{
+sallyScore:(E6)
+sallyAbility:(J6)
+}
+
+RockWall Score
+{
+rockwallScore:(E7)
+rockwallAbility:(J7)
+}
+
+Rough Terrain Score
+{
+roughScore:(E8)
+roughAbility:(J8)
+}
+
+Low Bar Score
+{
+lowbarScore:(E9)
+lowbarAbility:(J9)
+}
+
+FieldComments
+{
+FieldComments:(P1)
+}
+
+HAPC // Help a partner cross ( This section was removed for continutiy reasons)
+{
+HAPC_Portcullis:(F1)
+HAPC_Cheval-de-Frise:(F2)
+HAPC_Moat:(F3)
+HAPC_Ramparts:(F4)
+HAPC_Drawbridge:(F5)
+HAPC_SallyPort:(F6)
+HAPC_Rockwall:(F7)
+HAPC_RoughTerrain:(F8)
+HAPC_LowBar:(F9)
+}
+
+HTC // Had trouble crossing
+{
+HTC_Portcullis:(G1)
+HTC_Cheval-de-Frise:(G2)
+HTC_Moat:(G3)
+HTC_Ramparts:(G4)
+HTC_Drawbridge:(G5)
+HTC_SallyPort:(G6)
+HTC_Rockwall:(G7)
+HTC_RoughTerrain:(G8)
+HTC_LowBar:(G9)
+}
+
+#End

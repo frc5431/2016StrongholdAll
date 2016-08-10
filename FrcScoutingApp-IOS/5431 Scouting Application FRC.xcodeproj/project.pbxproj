@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F1AF0661C65186700801E27 /* sdXZ2E9g.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1AF0651C65186700801E27 /* sdXZ2E9g.png */; };
+		9F9ED6231C7655FE0053E0BE /* FRCPie.html in Resources */ = {isa = PBXBuildFile; fileRef = 9F9ED6221C7655FE0053E0BE /* FRCPie.html */; };
+		9F9ED6281C7658C20053E0BE /* frc_aschs2010_a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F9ED6251C7658C20053E0BE /* frc_aschs2010_a.jpg */; };
+		9F9ED6291C7658C20053E0BE /* Robotics-Competition-at-Troy-Athens-H.S.-Friday-4-05-13-007-1000x750.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F9ED6261C7658C20053E0BE /* Robotics-Competition-at-Troy-Athens-H.S.-Friday-4-05-13-007-1000x750.jpg */; };
+		9F9ED62A1C7658C20053E0BE /* firstsmu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F9ED6271C7658C20053E0BE /* firstsmu.jpg */; };
+		9F9ED62E1C765A740053E0BE /* Hyprothetical_6wd_Chassis_Fall_2008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F9ED62B1C765A740053E0BE /* Hyprothetical_6wd_Chassis_Fall_2008.jpg */; };
+		9F9ED62F1C765A740053E0BE /* 8e3d0796-2014-03-09-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F9ED62C1C765A740053E0BE /* 8e3d0796-2014-03-09-01.jpg */; };
+		9F9ED6301C765A740053E0BE /* Entech-Frc-2012-Competition-Palmetto-TeamWithChairmansAwardBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F9ED62D1C765A740053E0BE /* Entech-Frc-2012-Competition-Palmetto-TeamWithChairmansAwardBanner.jpg */; };
+		9F9ED6351C765C560053E0BE /* rReportsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9ED6331C765C560053E0BE /* rReportsTableView.m */; };
+		9F9ED6361C765C560053E0BE /* rReportsTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F9ED6341C765C560053E0BE /* rReportsTableView.xib */; };
+		9FA7F1351C6534CC006058AE /* FRCDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7F1341C6534CC006058AE /* FRCDataModel.swift */; };
+		9FF693C71CAEB4AF002A761A /* Cheval-de-Frise.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9FF693BE1CAEB4AF002A761A /* Cheval-de-Frise.PNG */; };
+		9FF693C81CAEB4AF002A761A /* Drawbridge.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9FF693BF1CAEB4AF002A761A /* Drawbridge.PNG */; };
+		9FF693C91CAEB4AF002A761A /* Low Bar.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9FF693C01CAEB4AF002A761A /* Low Bar.PNG */; };
+		9FF693CA1CAEB4AF002A761A /* Moat.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9FF693C11CAEB4AF002A761A /* Moat.PNG */; };
+		9FF693CB1CAEB4AF002A761A /* Portcullis.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9FF693C21CAEB4AF002A761A /* Portcullis.PNG */; };
+		9FF693CC1CAEB4AF002A761A /* Ramparts.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9FF693C31CAEB4AF002A761A /* Ramparts.PNG */; };
+		9FF693CD1CAEB4AF002A761A /* Rock Wall.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9FF693C41CAEB4AF002A761A /* Rock Wall.PNG */; };
+		9FF693CE1CAEB4AF002A761A /* Rough Terrain.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9FF693C51CAEB4AF002A761A /* Rough Terrain.PNG */; };
+		9FF693CF1CAEB4AF002A761A /* Sally Port.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9FF693C61CAEB4AF002A761A /* Sally Port.PNG */; };
+		9FF693D41CAEB52D002A761A /* FRCRegional_X1_X2_Teleop1.dbs in Resources */ = {isa = PBXBuildFile; fileRef = 9FF693D11CAEB52D002A761A /* FRCRegional_X1_X2_Teleop1.dbs */; };
+		9FF693D51CAEB52D002A761A /* FRCRegional_X1_X2_Teleop2.dbs in Resources */ = {isa = PBXBuildFile; fileRef = 9FF693D21CAEB52D002A761A /* FRCRegional_X1_X2_Teleop2.dbs */; };
+		9FF693D91CAED3A3002A761A /* ScoutDataTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF693D71CAED3A3002A761A /* ScoutDataTableTableViewController.m */; };
+		9FF693DA1CAED3A3002A761A /* ScoutDataTableTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF693D81CAED3A3002A761A /* ScoutDataTableTableViewController.xib */; };
+		9FF693DD1CAED603002A761A /* HomeViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF693DC1CAED603002A761A /* HomeViewViewController.m */; };
+		9FF693DF1CAEDEB2002A761A /* first-stronghold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FF693DE1CAEDEB2002A761A /* first-stronghold.jpg */; };
+		A6122B111CA0C1090065D19C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6122B101CA0C1090065D19C /* Info.plist */; };
+		A6122B131CA0EB580065D19C /* FRC Field.png in Resources */ = {isa = PBXBuildFile; fileRef = A6122B121CA0EB580065D19C /* FRC Field.png */; };
+		A6122B161CA0EF6A0065D19C /* ViewControllerSign.m in Sources */ = {isa = PBXBuildFile; fileRef = A6122B151CA0EF6A0065D19C /* ViewControllerSign.m */; };
+		A6122B1C1CA16D260065D19C /* DBManager_Field.m in Sources */ = {isa = PBXBuildFile; fileRef = A6122B1B1CA16D260065D19C /* DBManager_Field.m */; };
+		A6122B1E1CA16DDF0065D19C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A6122B1D1CA16DDF0065D19C /* libsqlite3.0.tbd */; };
+		A64304BF1CB05AEC0083C38B /* FRCRegional_X1_X2_Auton.dbs in Resources */ = {isa = PBXBuildFile; fileRef = A64304BE1CB05AEC0083C38B /* FRCRegional_X1_X2_Auton.dbs */; };
+		A655A9691CA324F200CCA20F /* FRCRegional_X1_X2.dbs in Resources */ = {isa = PBXBuildFile; fileRef = A655A9681CA324F200CCA20F /* FRCRegional_X1_X2.dbs */; };
+		A69FDE491CAEF0E800A1B5BD /* TeamTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FDE481CAEF0E800A1B5BD /* TeamTableView.m */; };
+		F8D06BF61C596EF400FEE37C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D06BF51C596EF400FEE37C /* main.m */; };
+		F8D06BF91C596EF400FEE37C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D06BF81C596EF400FEE37C /* AppDelegate.m */; };
+		F8D06BFC1C596EF400FEE37C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D06BFB1C596EF400FEE37C /* ViewController.m */; };
+		F8D06BFF1C596EF400FEE37C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D06BFD1C596EF400FEE37C /* Main.storyboard */; };
+		F8D06C011C596EF400FEE37C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D06C001C596EF400FEE37C /* Assets.xcassets */; };
+		F8D06C041C596EF400FEE37C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D06C021C596EF400FEE37C /* LaunchScreen.storyboard */; };
+		F8D06C0F1C596EF400FEE37C /* _431_Scouting_Application_FRCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D06C0E1C596EF400FEE37C /* _431_Scouting_Application_FRCTests.m */; };
+		F8D06C1A1C596EF400FEE37C /* _431_Scouting_Application_FRCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D06C191C596EF400FEE37C /* _431_Scouting_Application_FRCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8D06C0B1C596EF400FEE37C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D06BE91C596EF400FEE37C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D06BF01C596EF400FEE37C;
+			remoteInfo = "5431 Scouting Application FRC";
+		};
+		F8D06C161C596EF400FEE37C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D06BE91C596EF400FEE37C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D06BF01C596EF400FEE37C;
+			remoteInfo = "5431 Scouting Application FRC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F1AF0651C65186700801E27 /* sdXZ2E9g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sdXZ2E9g.png; sourceTree = "<group>"; };
+		9F9ED6221C7655FE0053E0BE /* FRCPie.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FRCPie.html; sourceTree = "<group>"; };
+		9F9ED6251C7658C20053E0BE /* frc_aschs2010_a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frc_aschs2010_a.jpg; sourceTree = "<group>"; };
+		9F9ED6261C7658C20053E0BE /* Robotics-Competition-at-Troy-Athens-H.S.-Friday-4-05-13-007-1000x750.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Robotics-Competition-at-Troy-Athens-H.S.-Friday-4-05-13-007-1000x750.jpg"; sourceTree = "<group>"; };
+		9F9ED6271C7658C20053E0BE /* firstsmu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = firstsmu.jpg; sourceTree = "<group>"; };
+		9F9ED62B1C765A740053E0BE /* Hyprothetical_6wd_Chassis_Fall_2008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hyprothetical_6wd_Chassis_Fall_2008.jpg; sourceTree = "<group>"; };
+		9F9ED62C1C765A740053E0BE /* 8e3d0796-2014-03-09-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8e3d0796-2014-03-09-01.jpg"; sourceTree = "<group>"; };
+		9F9ED62D1C765A740053E0BE /* Entech-Frc-2012-Competition-Palmetto-TeamWithChairmansAwardBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Entech-Frc-2012-Competition-Palmetto-TeamWithChairmansAwardBanner.jpg"; sourceTree = "<group>"; };
+		9F9ED6321C765C560053E0BE /* rReportsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rReportsTableView.h; sourceTree = "<group>"; };
+		9F9ED6331C765C560053E0BE /* rReportsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rReportsTableView.m; sourceTree = "<group>"; };
+		9F9ED6341C765C560053E0BE /* rReportsTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = rReportsTableView.xib; sourceTree = "<group>"; };
+		9FA7F1341C6534CC006058AE /* FRCDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRCDataModel.swift; sourceTree = "<group>"; };
+		9FF693BE1CAEB4AF002A761A /* Cheval-de-Frise.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cheval-de-Frise.PNG"; sourceTree = "<group>"; };
+		9FF693BF1CAEB4AF002A761A /* Drawbridge.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drawbridge.PNG; sourceTree = "<group>"; };
+		9FF693C01CAEB4AF002A761A /* Low Bar.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Low Bar.PNG"; sourceTree = "<group>"; };
+		9FF693C11CAEB4AF002A761A /* Moat.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moat.PNG; sourceTree = "<group>"; };
+		9FF693C21CAEB4AF002A761A /* Portcullis.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portcullis.PNG; sourceTree = "<group>"; };
+		9FF693C31CAEB4AF002A761A /* Ramparts.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ramparts.PNG; sourceTree = "<group>"; };
+		9FF693C41CAEB4AF002A761A /* Rock Wall.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rock Wall.PNG"; sourceTree = "<group>"; };
+		9FF693C51CAEB4AF002A761A /* Rough Terrain.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rough Terrain.PNG"; sourceTree = "<group>"; };
+		9FF693C61CAEB4AF002A761A /* Sally Port.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sally Port.PNG"; sourceTree = "<group>"; };
+		9FF693D11CAEB52D002A761A /* FRCRegional_X1_X2_Teleop1.dbs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FRCRegional_X1_X2_Teleop1.dbs; sourceTree = "<group>"; };
+		9FF693D21CAEB52D002A761A /* FRCRegional_X1_X2_Teleop2.dbs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FRCRegional_X1_X2_Teleop2.dbs; sourceTree = "<group>"; };
+		9FF693D61CAED3A3002A761A /* ScoutDataTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoutDataTableTableViewController.h; sourceTree = "<group>"; };
+		9FF693D71CAED3A3002A761A /* ScoutDataTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoutDataTableTableViewController.m; sourceTree = "<group>"; };
+		9FF693D81CAED3A3002A761A /* ScoutDataTableTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoutDataTableTableViewController.xib; sourceTree = "<group>"; };
+		9FF693DB1CAED603002A761A /* HomeViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewViewController.h; sourceTree = "<group>"; };
+		9FF693DC1CAED603002A761A /* HomeViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewViewController.m; sourceTree = "<group>"; };
+		9FF693DE1CAEDEB2002A761A /* first-stronghold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "first-stronghold.jpg"; sourceTree = "<group>"; };
+		A6122B101CA0C1090065D19C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6122B121CA0EB580065D19C /* FRC Field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FRC Field.png"; sourceTree = "<group>"; };
+		A6122B141CA0EF6A0065D19C /* ViewControllerSign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerSign.h; sourceTree = "<group>"; };
+		A6122B151CA0EF6A0065D19C /* ViewControllerSign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSign.m; sourceTree = "<group>"; };
+		A6122B1A1CA16D260065D19C /* DBManager_Field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager_Field.h; sourceTree = "<group>"; };
+		A6122B1B1CA16D260065D19C /* DBManager_Field.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager_Field.m; sourceTree = "<group>"; };
+		A6122B1D1CA16DDF0065D19C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A6122B1F1CA16EE50065D19C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsqlite3.dylib; sourceTree = "<group>"; };
+		A64304BE1CB05AEC0083C38B /* FRCRegional_X1_X2_Auton.dbs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FRCRegional_X1_X2_Auton.dbs; sourceTree = "<group>"; };
+		A655A9681CA324F200CCA20F /* FRCRegional_X1_X2.dbs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FRCRegional_X1_X2.dbs; sourceTree = "<group>"; };
+		A69FDE471CAEF0E800A1B5BD /* TeamTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamTableView.h; sourceTree = "<group>"; };
+		A69FDE481CAEF0E800A1B5BD /* TeamTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamTableView.m; sourceTree = "<group>"; };
+		F84B00EA1C62FA8C002D0B1F /* 5431 Scouting Application FRC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5431 Scouting Application FRC-Bridging-Header.h"; sourceTree = "<group>"; };
+		F8D06BF11C596EF400FEE37C /* 5431 Scouting Application FRC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5431 Scouting Application FRC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D06BF51C596EF400FEE37C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8D06BF71C596EF400FEE37C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8D06BF81C596EF400FEE37C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8D06BFA1C596EF400FEE37C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8D06BFB1C596EF400FEE37C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8D06BFE1C596EF400FEE37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8D06C001C596EF400FEE37C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8D06C031C596EF400FEE37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8D06C0A1C596EF400FEE37C /* 5431 Scouting Application FRCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "5431 Scouting Application FRCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D06C0E1C596EF400FEE37C /* _431_Scouting_Application_FRCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _431_Scouting_Application_FRCTests.m; sourceTree = "<group>"; };
+		F8D06C101C596EF400FEE37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D06C151C596EF400FEE37C /* 5431 Scouting Application FRCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "5431 Scouting Application FRCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D06C191C596EF400FEE37C /* _431_Scouting_Application_FRCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _431_Scouting_Application_FRCUITests.m; sourceTree = "<group>"; };
+		F8D06C1B1C596EF400FEE37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D06BEE1C596EF400FEE37C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6122B1E1CA16DDF0065D19C /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D06C071C596EF400FEE37C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D06C121C596EF400FEE37C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F9ED6241C7658B00053E0BE /* Image flow */ = {
+			isa = PBXGroup;
+			children = (
+				9F9ED62B1C765A740053E0BE /* Hyprothetical_6wd_Chassis_Fall_2008.jpg */,
+				9F9ED62C1C765A740053E0BE /* 8e3d0796-2014-03-09-01.jpg */,
+				9F9ED62D1C765A740053E0BE /* Entech-Frc-2012-Competition-Palmetto-TeamWithChairmansAwardBanner.jpg */,
+				9F9ED6251C7658C20053E0BE /* frc_aschs2010_a.jpg */,
+				9F9ED6261C7658C20053E0BE /* Robotics-Competition-at-Troy-Athens-H.S.-Friday-4-05-13-007-1000x750.jpg */,
+				9F9ED6271C7658C20053E0BE /* firstsmu.jpg */,
+			);
+			name = "Image flow";
+			sourceTree = "<group>";
+		};
+		9F9ED6311C765BFD0053E0BE /* Table Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F9ED6321C765C560053E0BE /* rReportsTableView.h */,
+				9F9ED6331C765C560053E0BE /* rReportsTableView.m */,
+				9F9ED6341C765C560053E0BE /* rReportsTableView.xib */,
+			);
+			name = "Table Views";
+			sourceTree = "<group>";
+		};
+		9FA7F1291C651909006058AE /* Code Dependices */ = {
+			isa = PBXGroup;
+			children = (
+				A6122B141CA0EF6A0065D19C /* ViewControllerSign.h */,
+				A6122B151CA0EF6A0065D19C /* ViewControllerSign.m */,
+				9FA7F1341C6534CC006058AE /* FRCDataModel.swift */,
+				9FF693D61CAED3A3002A761A /* ScoutDataTableTableViewController.h */,
+				9FF693D71CAED3A3002A761A /* ScoutDataTableTableViewController.m */,
+				9FF693D81CAED3A3002A761A /* ScoutDataTableTableViewController.xib */,
+				9FF693DB1CAED603002A761A /* HomeViewViewController.h */,
+				9FF693DC1CAED603002A761A /* HomeViewViewController.m */,
+				A69FDE471CAEF0E800A1B5BD /* TeamTableView.h */,
+				A69FDE481CAEF0E800A1B5BD /* TeamTableView.m */,
+			);
+			name = "Code Dependices";
+			sourceTree = "<group>";
+		};
+		9FC35D031C6D5C6B003E0674 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		A6122B171CA16C560065D19C /* My Code Librarys */ = {
+			isa = PBXGroup;
+			children = (
+				A6122B1A1CA16D260065D19C /* DBManager_Field.h */,
+				A6122B1B1CA16D260065D19C /* DBManager_Field.m */,
+			);
+			name = "My Code Librarys";
+			sourceTree = "<group>";
+		};
+		A655A9651CA2E9BF00CCA20F /* File Templetes */ = {
+			isa = PBXGroup;
+			children = (
+				9FF693D11CAEB52D002A761A /* FRCRegional_X1_X2_Teleop1.dbs */,
+				9FF693D21CAEB52D002A761A /* FRCRegional_X1_X2_Teleop2.dbs */,
+				A64304BE1CB05AEC0083C38B /* FRCRegional_X1_X2_Auton.dbs */,
+			);
+			name = "File Templetes";
+			sourceTree = "<group>";
+		};
+		F8D06BE81C596EF400FEE37C = {
+			isa = PBXGroup;
+			children = (
+				A655A9681CA324F200CCA20F /* FRCRegional_X1_X2.dbs */,
+				A6122B1F1CA16EE50065D19C /* libsqlite3.dylib */,
+				A6122B1D1CA16DDF0065D19C /* libsqlite3.0.tbd */,
+				F8D06BF31C596EF400FEE37C /* 5431 Scouting Application FRC */,
+				F8D06C0D1C596EF400FEE37C /* 5431 Scouting Application FRCTests */,
+				F8D06C181C596EF400FEE37C /* 5431 Scouting Application FRCUITests */,
+				F8D06BF21C596EF400FEE37C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D06BF21C596EF400FEE37C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D06BF11C596EF400FEE37C /* 5431 Scouting Application FRC.app */,
+				F8D06C0A1C596EF400FEE37C /* 5431 Scouting Application FRCTests.xctest */,
+				F8D06C151C596EF400FEE37C /* 5431 Scouting Application FRCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D06BF31C596EF400FEE37C /* 5431 Scouting Application FRC */ = {
+			isa = PBXGroup;
+			children = (
+				A655A9651CA2E9BF00CCA20F /* File Templetes */,
+				A6122B171CA16C560065D19C /* My Code Librarys */,
+				9F9ED6311C765BFD0053E0BE /* Table Views */,
+				9F9ED6241C7658B00053E0BE /* Image flow */,
+				9FC35D031C6D5C6B003E0674 /* Data */,
+				9FA7F1291C651909006058AE /* Code Dependices */,
+				F8D06C271C596F6900FEE37C /* Images */,
+				F8D06BF71C596EF400FEE37C /* AppDelegate.h */,
+				F8D06BF81C596EF400FEE37C /* AppDelegate.m */,
+				F8D06BFA1C596EF400FEE37C /* ViewController.h */,
+				F8D06BFB1C596EF400FEE37C /* ViewController.m */,
+				F8D06BFD1C596EF400FEE37C /* Main.storyboard */,
+				9F9ED6221C7655FE0053E0BE /* FRCPie.html */,
+				F8D06C001C596EF400FEE37C /* Assets.xcassets */,
+				F8D06C021C596EF400FEE37C /* LaunchScreen.storyboard */,
+				A6122B101CA0C1090065D19C /* Info.plist */,
+				F8D06BF41C596EF400FEE37C /* Supporting Files */,
+			);
+			path = "5431 Scouting Application FRC";
+			sourceTree = "<group>";
+		};
+		F8D06BF41C596EF400FEE37C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8D06BF51C596EF400FEE37C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8D06C0D1C596EF400FEE37C /* 5431 Scouting Application FRCTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D06C0E1C596EF400FEE37C /* _431_Scouting_Application_FRCTests.m */,
+				F8D06C101C596EF400FEE37C /* Info.plist */,
+			);
+			path = "5431 Scouting Application FRCTests";
+			sourceTree = "<group>";
+		};
+		F8D06C181C596EF400FEE37C /* 5431 Scouting Application FRCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D06C191C596EF400FEE37C /* _431_Scouting_Application_FRCUITests.m */,
+				F8D06C1B1C596EF400FEE37C /* Info.plist */,
+			);
+			path = "5431 Scouting Application FRCUITests";
+			sourceTree = "<group>";
+		};
+		F8D06C271C596F6900FEE37C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9FF693DE1CAEDEB2002A761A /* first-stronghold.jpg */,
+				9FF693BE1CAEB4AF002A761A /* Cheval-de-Frise.PNG */,
+				9FF693BF1CAEB4AF002A761A /* Drawbridge.PNG */,
+				9FF693C01CAEB4AF002A761A /* Low Bar.PNG */,
+				9FF693C11CAEB4AF002A761A /* Moat.PNG */,
+				9FF693C21CAEB4AF002A761A /* Portcullis.PNG */,
+				9FF693C31CAEB4AF002A761A /* Ramparts.PNG */,
+				9FF693C41CAEB4AF002A761A /* Rock Wall.PNG */,
+				9FF693C51CAEB4AF002A761A /* Rough Terrain.PNG */,
+				9FF693C61CAEB4AF002A761A /* Sally Port.PNG */,
+				A6122B121CA0EB580065D19C /* FRC Field.png */,
+				9F1AF0651C65186700801E27 /* sdXZ2E9g.png */,
+				F84B00EA1C62FA8C002D0B1F /* 5431 Scouting Application FRC-Bridging-Header.h */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8D06BF01C596EF400FEE37C /* 5431 Scouting Application FRC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D06C1E1C596EF400FEE37C /* Build configuration list for PBXNativeTarget "5431 Scouting Application FRC" */;
+			buildPhases = (
+				F8D06BED1C596EF400FEE37C /* Sources */,
+				F8D06BEE1C596EF400FEE37C /* Frameworks */,
+				F8D06BEF1C596EF400FEE37C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5431 Scouting Application FRC";
+			productName = "5431 Scouting Application FRC";
+			productReference = F8D06BF11C596EF400FEE37C /* 5431 Scouting Application FRC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8D06C091C596EF400FEE37C /* 5431 Scouting Application FRCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D06C211C596EF400FEE37C /* Build configuration list for PBXNativeTarget "5431 Scouting Application FRCTests" */;
+			buildPhases = (
+				F8D06C061C596EF400FEE37C /* Sources */,
+				F8D06C071C596EF400FEE37C /* Frameworks */,
+				F8D06C081C596EF400FEE37C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D06C0C1C596EF400FEE37C /* PBXTargetDependency */,
+			);
+			name = "5431 Scouting Application FRCTests";
+			productName = "5431 Scouting Application FRCTests";
+			productReference = F8D06C0A1C596EF400FEE37C /* 5431 Scouting Application FRCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8D06C141C596EF400FEE37C /* 5431 Scouting Application FRCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D06C241C596EF400FEE37C /* Build configuration list for PBXNativeTarget "5431 Scouting Application FRCUITests" */;
+			buildPhases = (
+				F8D06C111C596EF400FEE37C /* Sources */,
+				F8D06C121C596EF400FEE37C /* Frameworks */,
+				F8D06C131C596EF400FEE37C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D06C171C596EF400FEE37C /* PBXTargetDependency */,
+			);
+			name = "5431 Scouting Application FRCUITests";
+			productName = "5431 Scouting Application FRCUITests";
+			productReference = F8D06C151C596EF400FEE37C /* 5431 Scouting Application FRCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D06BE91C596EF400FEE37C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Titian Robotics";
+				TargetAttributes = {
+					F8D06BF01C596EF400FEE37C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = GN26VAQ3KX;
+					};
+					F8D06C091C596EF400FEE37C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F8D06BF01C596EF400FEE37C;
+					};
+					F8D06C141C596EF400FEE37C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F8D06BF01C596EF400FEE37C;
+					};
+				};
+			};
+			buildConfigurationList = F8D06BEC1C596EF400FEE37C /* Build configuration list for PBXProject "5431 Scouting Application FRC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8D06BE81C596EF400FEE37C;
+			productRefGroup = F8D06BF21C596EF400FEE37C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D06BF01C596EF400FEE37C /* 5431 Scouting Application FRC */,
+				F8D06C091C596EF400FEE37C /* 5431 Scouting Application FRCTests */,
+				F8D06C141C596EF400FEE37C /* 5431 Scouting Application FRCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D06BEF1C596EF400FEE37C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF693CA1CAEB4AF002A761A /* Moat.PNG in Resources */,
+				9FF693CC1CAEB4AF002A761A /* Ramparts.PNG in Resources */,
+				9FF693C91CAEB4AF002A761A /* Low Bar.PNG in Resources */,
+				9F1AF0661C65186700801E27 /* sdXZ2E9g.png in Resources */,
+				A6122B131CA0EB580065D19C /* FRC Field.png in Resources */,
+				9FF693CE1CAEB4AF002A761A /* Rough Terrain.PNG in Resources */,
+				9F9ED6361C765C560053E0BE /* rReportsTableView.xib in Resources */,
+				9F9ED6281C7658C20053E0BE /* frc_aschs2010_a.jpg in Resources */,
+				9FF693D41CAEB52D002A761A /* FRCRegional_X1_X2_Teleop1.dbs in Resources */,
+				9F9ED6301C765A740053E0BE /* Entech-Frc-2012-Competition-Palmetto-TeamWithChairmansAwardBanner.jpg in Resources */,
+				9FF693C71CAEB4AF002A761A /* Cheval-de-Frise.PNG in Resources */,
+				A655A9691CA324F200CCA20F /* FRCRegional_X1_X2.dbs in Resources */,
+				A6122B111CA0C1090065D19C /* Info.plist in Resources */,
+				9FF693CD1CAEB4AF002A761A /* Rock Wall.PNG in Resources */,
+				F8D06C041C596EF400FEE37C /* LaunchScreen.storyboard in Resources */,
+				9F9ED6231C7655FE0053E0BE /* FRCPie.html in Resources */,
+				9FF693CB1CAEB4AF002A761A /* Portcullis.PNG in Resources */,
+				9FF693CF1CAEB4AF002A761A /* Sally Port.PNG in Resources */,
+				F8D06C011C596EF400FEE37C /* Assets.xcassets in Resources */,
+				9FF693D51CAEB52D002A761A /* FRCRegional_X1_X2_Teleop2.dbs in Resources */,
+				A64304BF1CB05AEC0083C38B /* FRCRegional_X1_X2_Auton.dbs in Resources */,
+				9FF693DF1CAEDEB2002A761A /* first-stronghold.jpg in Resources */,
+				F8D06BFF1C596EF400FEE37C /* Main.storyboard in Resources */,
+				9F9ED6291C7658C20053E0BE /* Robotics-Competition-at-Troy-Athens-H.S.-Friday-4-05-13-007-1000x750.jpg in Resources */,
+				9F9ED62F1C765A740053E0BE /* 8e3d0796-2014-03-09-01.jpg in Resources */,
+				9F9ED62E1C765A740053E0BE /* Hyprothetical_6wd_Chassis_Fall_2008.jpg in Resources */,
+				9FF693DA1CAED3A3002A761A /* ScoutDataTableTableViewController.xib in Resources */,
+				9F9ED62A1C7658C20053E0BE /* firstsmu.jpg in Resources */,
+				9FF693C81CAEB4AF002A761A /* Drawbridge.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D06C081C596EF400FEE37C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D06C131C596EF400FEE37C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D06BED1C596EF400FEE37C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D06BFC1C596EF400FEE37C /* ViewController.m in Sources */,
+				9FA7F1351C6534CC006058AE /* FRCDataModel.swift in Sources */,
+				9FF693DD1CAED603002A761A /* HomeViewViewController.m in Sources */,
+				A69FDE491CAEF0E800A1B5BD /* TeamTableView.m in Sources */,
+				F8D06BF91C596EF400FEE37C /* AppDelegate.m in Sources */,
+				9F9ED6351C765C560053E0BE /* rReportsTableView.m in Sources */,
+				F8D06BF61C596EF400FEE37C /* main.m in Sources */,
+				A6122B1C1CA16D260065D19C /* DBManager_Field.m in Sources */,
+				9FF693D91CAED3A3002A761A /* ScoutDataTableTableViewController.m in Sources */,
+				A6122B161CA0EF6A0065D19C /* ViewControllerSign.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D06C061C596EF400FEE37C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D06C0F1C596EF400FEE37C /* _431_Scouting_Application_FRCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D06C111C596EF400FEE37C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D06C1A1C596EF400FEE37C /* _431_Scouting_Application_FRCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8D06C0C1C596EF400FEE37C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D06BF01C596EF400FEE37C /* 5431 Scouting Application FRC */;
+			targetProxy = F8D06C0B1C596EF400FEE37C /* PBXContainerItemProxy */;
+		};
+		F8D06C171C596EF400FEE37C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D06BF01C596EF400FEE37C /* 5431 Scouting Application FRC */;
+			targetProxy = F8D06C161C596EF400FEE37C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8D06BFD1C596EF400FEE37C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D06BFE1C596EF400FEE37C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8D06C021C596EF400FEE37C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D06C031C596EF400FEE37C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8D06C1C1C596EF400FEE37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F8D06C1D1C596EF400FEE37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8D06C1F1C596EF400FEE37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "5431 Scouting Application FRC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.titainrobotics.scouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "5431 Scouting Application FRC/5431 Scouting Application FRC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8D06C201C596EF400FEE37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "5431 Scouting Application FRC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.titainrobotics.scouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "5431 Scouting Application FRC/5431 Scouting Application FRC-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F8D06C221C596EF400FEE37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "5431 Scouting Application FRCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AcademyHS.-431-Scouting-Application-FRCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/5431 Scouting Application FRC.app/5431 Scouting Application FRC";
+			};
+			name = Debug;
+		};
+		F8D06C231C596EF400FEE37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "5431 Scouting Application FRCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AcademyHS.-431-Scouting-Application-FRCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/5431 Scouting Application FRC.app/5431 Scouting Application FRC";
+			};
+			name = Release;
+		};
+		F8D06C251C596EF400FEE37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "5431 Scouting Application FRCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AcademyHS.-431-Scouting-Application-FRCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "5431 Scouting Application FRC";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F8D06C261C596EF400FEE37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "5431 Scouting Application FRCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AcademyHS.-431-Scouting-Application-FRCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "5431 Scouting Application FRC";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D06BEC1C596EF400FEE37C /* Build configuration list for PBXProject "5431 Scouting Application FRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D06C1C1C596EF400FEE37C /* Debug */,
+				F8D06C1D1C596EF400FEE37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D06C1E1C596EF400FEE37C /* Build configuration list for PBXNativeTarget "5431 Scouting Application FRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D06C1F1C596EF400FEE37C /* Debug */,
+				F8D06C201C596EF400FEE37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D06C211C596EF400FEE37C /* Build configuration list for PBXNativeTarget "5431 Scouting Application FRCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D06C221C596EF400FEE37C /* Debug */,
+				F8D06C231C596EF400FEE37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D06C241C596EF400FEE37C /* Build configuration list for PBXNativeTarget "5431 Scouting Application FRCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D06C251C596EF400FEE37C /* Debug */,
+				F8D06C261C596EF400FEE37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8D06BE91C596EF400FEE37C /* Project object */;
+}

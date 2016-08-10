@@ -1,0 +1,19 @@
+# pack-refs with: peeled fully-peeled 
+b2eea29f1f8b4e29377a60b8b74c174795b4ca97 refs/remotes/origin/docs/contributing
+fe5c54cf21f53047af2bc54e082f5f455326c8dc refs/remotes/origin/gh-pages
+56a5ba1c528610e5b592b61f4ceaedac362a97f1 refs/remotes/origin/main
+20ec0540f77784047e9f19a89c1988dbe6441e28 refs/remotes/origin/master
+cc468c7e7ac5ed9e45d68a7311ef85a233087995 refs/remotes/origin/revert-481-fix/windowsMainWindowTest
+0e26a0a2519ab1c22a348de73bdd5b91a79ea579 refs/tags/v0.1.0
+8e34f03956123a17b354abaadb89d9b6e154f25f refs/tags/v0.2.0
+68d909df9bee9f00c5799141eadd1c39dcf09154 refs/tags/v0.2.1
+d6b5545b49938aa492d750543d2da0ba3ab90f41 refs/tags/v0.3.0
+8ed9df279ded1714a8b4f598afc3eed1ca300f30 refs/tags/v1.0.0
+a21422da1a5865bed1f7a763732c501f67385327 refs/tags/v1.0.0-rc1
+4bac70e7b9d44083d1f587cabc8780e5cad682d8 refs/tags/v1.0.0-rc2
+699f31b0633867df07f832efd390eb78fe194e87 refs/tags/v1.0.0-rc3
+4bc894e9d67ea532dd6088c8efcbdae479411181 refs/tags/v1.0.0-rc4
+55486635aa327ccaca0fbc90135da271c90d7164 refs/tags/v1.1.0
+756ab20b0926ee528a6ea22b83f609113c38052d refs/tags/v1.1.1
+e56a1a700d598642ff968347f11394fe7da72dde refs/tags/v1.2.0
+119c866dc94c7d0c5a33e505f81cb9430fa08590 refs/tags/v1.3.0-rc1

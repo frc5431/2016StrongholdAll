@@ -1,0 +1,211 @@
+# | FRCRegional_X1_X2.dbs |
+
+[ Auton Records ] 
+
+portculis 
+{
+portStart:(A1)
+portReach:(A2)
+portCross:(A3)
+}
+
+cheval de frise 
+{
+chevalStart:(A4)
+chevalReach:(A5)
+chevalCross:(A6)
+}
+
+Moat
+{
+moatStart:(A7) 
+moatReach:(A8)
+moatCross:(A9)
+}
+
+Ramparts
+{
+rampartsStart:(B1) 
+rampartsReach:(B2) 
+rampartsCross:(B3) 
+}
+
+Drawbridge 
+{
+drawbridgeStart:(B4) 
+drawbridgeReach:(B5) 
+drawbridgeCross:(B6) 
+}
+
+SallyPort
+{
+sallyStart:(B7) 
+sallyReach:(B8) 
+sallyCross:(B9) 
+}
+
+RockWall
+{
+rockwallStart:(C1)
+rockwallReach:(C2)
+rockwallCross:(C3)
+}
+
+Rough Terrain
+{
+roughStart:(C4) 
+roughReach:(C5)
+roughCross:(C6)
+}
+
+Low Bar 
+{
+lowbarStart:(C7)
+lowbarReach:(C8) 
+lowbarCross:(C9)
+} 
+
+spybot 
+{
+areYouASpyBot:(D1) 
+}
+
+Started With A Ball 
+{
+startedWithBall:(D2)
+}
+------------------------
+[ Tele-Op Records ] 
+------------------------
+portculis Score
+{
+portScore:(E1)
+portAbility:(E1.1)
+}
+
+cheval de frise Score 
+{
+chevalScore:(E2)
+chevalAbility:(E2.1)
+}
+
+Moat Score
+{
+moatScore:(E3)
+moatAbility:(E3.1) 
+}
+
+Ramparts Score
+{
+rampartsScore:(E4)
+rampartsAbility:(E4.1) 
+}
+
+Drawbridge Score
+{
+drawbridgeScore:(E5) 
+drawbridgeAbility:(E5.1)
+}
+
+SallyPort Score
+{
+sallyScore:(E6)
+sallyAbility:(E6.1) 
+}
+
+RockWall Score
+{
+rockwallScore:(E7)
+rockwallAbility:(E7.1)
+}
+
+Rough Terrain Score
+{
+roughScore:(E8) 
+roughAbility:(E8.1)
+}
+
+Low Bar Score
+{
+lowbarScore:(E9)
+lowbarAbility:(E9.1)
+}
+ 
+HAPC // Help a partner cross  
+{
+HAPC_Portcullis:(F1)
+HAPC_Cheval-de-Frise:(F2)
+HAPC_Moat:(F3)
+HAPC_Ramparts:(F4) 
+HAPC_Drawbridge:(F5) 
+HAPC_SallyPort:(F6)  
+HAPC_Rockwall:(F7) 
+HAPC_RoughTerrain:(F8) 
+HAPC_LowBar:(F9) 
+} 
+
+HTC // Had trouble crossing 
+{
+HTC_Portcullis:(G1) 
+HTC_Cheval-de-Frise:(G2) 
+HTC_Moat:(G3) 
+HTC_Ramparts:(G4) 
+HTC_Drawbridge:(G5) 
+HTC_SallyPort:(G6) 
+HTC_Rockwall:(G7) 
+HTC_RoughTerrain:(G8) 
+HTC_LowBar:(G9) 
+}
+
+---------------------------
+[ Tele-Op Records Part 2 ] 
+---------------------------
+
+Low Goal Scores
+{
+LGS:(H1)
+}
+
+Low Goal Fails
+{
+LGF:(H2)
+}
+
+High Goal Scores 
+{
+HGS:(H3)
+}
+
+High Goal Fails 
+{
+HGF:(H4)
+}
+
+Scalled
+{
+scalled:(H5)
+}
+
+Challanged
+{
+challanged:(H6)
+}
+
+Tech Fouls
+{
+TF:(H7)
+}
+
+Teleop Comments
+{
+TC:(H8)
+}
+
+Played Defense 
+{ 
+PD:(H9)
+}
+
+#End 
+
+

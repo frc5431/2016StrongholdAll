@@ -1,0 +1,88 @@
+# | FRCRegional_X1_X2.dbs |
+
+[ Auton Records ]
+
+portculis
+{
+portStart:(A1)
+portReach:(A2)
+portCross:(A3)
+}
+
+cheval de frise
+{
+chevalStart:(A4)
+chevalReach:(A5)
+chevalCross:(A6)
+}
+
+Moat
+{
+moatStart:(A7)
+moatReach:(A8)
+moatCross:(A9)
+}
+
+Ramparts
+{
+rampartsStart:(B1)
+rampartsReach:(B2)
+rampartsCross:(B3)
+}
+
+Drawbridge
+{
+drawbridgeStart:(B4)
+drawbridgeReach:(B5)
+drawbridgeCross:(B6)
+}
+
+SallyPort
+{
+sallyStart:(B7)
+sallyReach:(B8)
+sallyCross:(B9)
+}
+
+RockWall
+{
+rockwallStart:(C1)
+rockwallReach:(C2)
+rockwallCross:(C3)
+}
+
+Rough Terrain
+{
+roughStart:(C4)
+roughReach:(C5)
+roughCross:(C6)
+}
+
+Low Bar
+{
+lowbarStart:(C7)
+lowbarReach:(C8)
+lowbarCross:(C9)
+}
+
+spybot
+{
+areYouASpyBot:(D1)
+}
+
+Started With A Ball
+{
+startedWithBall:(D2)
+}
+
+Auton Comments
+{
+(D3)
+}
+
+Auton Shot
+{
+Shoot in Auton Capibility:(D4)
+}
+
+#End

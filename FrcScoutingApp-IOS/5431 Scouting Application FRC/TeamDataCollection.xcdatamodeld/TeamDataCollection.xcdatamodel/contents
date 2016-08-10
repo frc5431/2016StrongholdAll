@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
+    <entity name="FRCTeams" representedClassName="FRCTeams" syncable="YES">
+        <attribute name="logo_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="team_number" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Team" syncable="YES"/>
+    </entity>
+    <entity name="PerformanceData_GameA" representedClassName="PerformanceData_GameA" syncable="YES">
+        <attribute name="a_boulder_start" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="a_crossed_defenses" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="a_defense_reached" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="a_highgoal_score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="a_lowgoal_score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="PerformanceData_GameF" representedClassName="PerformanceData_GameF" syncable="YES">
+        <attribute name="f_boulder_pickup" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="f_challenged_towers" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="f_climbingtower" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="f_defensivepushing" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="f_highgoal_fails" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="f_highgoal_score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="f_lowgoal_fails" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="f_lowgoal_score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="PerformanceData_GameP" representedClassName="PerformanceData_GameP" syncable="YES">
+        <attribute name="cheval_de_frise_score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cheval_de_frise_speed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="drawbridge_score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="drawbridge_speed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lowbar_score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="lowbar_speed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="moat_score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="moat_speed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="portcullis_score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="portcullis_speed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="ramparts_score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="ramparts_speed" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="rockwall_score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rockwall_speed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="rough_terrain_score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rough_terrain_speed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sallyport_score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sallyport_speed" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="Team" representedClassName="Team" syncable="YES">
+        <attribute name="robot_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="team_bio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="team_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="team_type" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="aData" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PerformanceData_GameA" syncable="YES"/>
+        <relationship name="fData" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PerformanceData_GameF" syncable="YES"/>
+        <relationship name="pData" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PerformanceData_GameP" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FRCTeams" positionX="-45" positionY="-27" width="108" height="88"/>
+        <element name="PerformanceData_GameP" positionX="-207" positionY="234" width="155" height="313"/>
+        <element name="Team" positionX="-56" positionY="81" width="128" height="148"/>
+        <element name="PerformanceData_GameF" positionX="79" positionY="234" width="146" height="163"/>
+        <element name="PerformanceData_GameA" positionX="225" positionY="396" width="144" height="118"/>
+    </elements>
+</model>
